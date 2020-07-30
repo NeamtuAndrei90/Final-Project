@@ -104,8 +104,6 @@ header .navbar ul li a {
 }
 
 .about img:hover {
-    -ms-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
     transform: scale(1.1); 
 }
 
@@ -223,11 +221,6 @@ header .navbar ul li a {
     justify-content: center;
 }
 
-.projects {
-    display: flex;
-    flex-direction: column;
-}
-
 .projectContent {
     display: flex;
     flex-direction: row;
@@ -244,14 +237,16 @@ header .navbar ul li a {
 }
 
 .projectCard img:hover {
-    -ms-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
 .projectCard {
     margin: 2%;
     max-width: 400px;
+}
+
+.projectCard a {
+    border: none;
 }
 
 .button {
@@ -263,4 +258,43 @@ header .navbar ul li a {
     background-color: #7aa8b7;
     border-radius: 6px;
     outline: none;
+  }
+
+  .hobbies {
+    margin: 5% 5% 5% 5%;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hobbieImg {
+      margin-bottom: 5%;
+      height: 300px;
+      width: 400px;
+      box-shadow: 10px 10px 5px #aaaaaa;
+      transition: transform .3s;
+  }
+
+  .hobbieImg:hover {
+    transform: scale(1.1);
+  }
+
+  .hobbieContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .hobbieCard {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 2%;
+  }
+
+  .hobbieCard a {
+      border: none;
   }
