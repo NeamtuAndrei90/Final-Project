@@ -173,6 +173,20 @@ header .navbar ul li a {
     border-radius: 10px;
 }
 
+.progresBarEnglish{
+    margin: 2% 0 2% 0;
+    background-color: black;
+    border-radius: 13px;
+    padding: 3px;
+}
+
+.progresBarEnglish>div {
+    background-color: turquoise;
+    width: 80%;
+    height: 20px;
+    border-radius: 10px;
+}
+
 .work {
     display: flex;
     flex-direction: column;   
@@ -222,8 +236,17 @@ header .navbar ul li a {
 }
 
 .projectCard img {
+    margin-bottom: 5%;
     height: 300px;
     width: 400px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    transition: transform .3s;   
+}
+
+.projectCard img:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .projectCard {
