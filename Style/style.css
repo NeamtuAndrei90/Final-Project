@@ -42,18 +42,18 @@ header .navbar ul li a {
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 10%;
-  }
+}
   
-  .fa:hover {
+.fa:hover {
       opacity: 0.7;
-  }
+}
   
-  .fa-facebook {
+.fa-facebook {
     background: #3B5998;
     color: white;
-  }
+}
 
-  .fa-linkedin {
+.fa-linkedin {
   background: #007bb5;
   color: white;
 }
@@ -258,43 +258,99 @@ header .navbar ul li a {
     background-color: #7aa8b7;
     border-radius: 6px;
     outline: none;
-  }
+}
 
-  .hobbies {
+.hobbies {
     margin: 5% 5% 5% 5%;
     color: black;
     font-size: 25px;
     font-weight: 600;
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .hobbieImg {
-      margin-bottom: 5%;
-      height: 300px;
-      width: 400px;
-      box-shadow: 10px 10px 5px #aaaaaa;
-      transition: transform .3s;
-  }
+.hobbieImg {
+    margin-bottom: 5%;
+    height: 300px;
+    width: 400px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    transition: transform .3s;
+}
 
-  .hobbieImg:hover {
+.hobbieImg:hover {
     transform: scale(1.1);
-  }
+}
 
-  .hobbieContainer {
+.hobbieContainer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-  }
+}
 
-  .hobbieCard {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: 2%;
-  }
+.hobbieCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+}
 
-  .hobbieCard a {
-      border: none;
-  }
+.hobbieCard a {
+    border: none;
+}
+
+.contact {
+    margin: 5% 5% 5% 5%;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactForm input {
+    width: 30rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: .3rem;
+    border: 3px solid black;
+    outline: none;
+    margin: 1rem;
+}
+
+.contactForm textarea {
+    height: 10rem;
+    width: 30rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: .3rem;
+    border: 3px solid black;
+    outline: none;
+}
+.contactButton {
+    margin-top: 5%;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #7aa8b7;
+    border-radius: 6px;
+    outline: none;
+    width: 10rem;
+    height: 3rem;
+}
