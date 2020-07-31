@@ -22,13 +22,13 @@ function validate() {
         email.style.borderColor = 'red';
     }
 
-    if(contactMessage.value.match(letters)){
+    if(contactMessage.value!= ""){
         contactMessage.style.borderColor = 'black';
     }else{
         contactMessage.style.borderColor = 'red';
     }
 
-    if(name.value.match(letters) && email.value.match(letters) && contactMessage.value.match(letters)){
+    if(name.value.match(letters) && email.value.match(letters) && contactMessage.value!= ""){
         alert("Thank you for your attention")
     }
 }
