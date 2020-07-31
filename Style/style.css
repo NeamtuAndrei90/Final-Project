@@ -20,13 +20,10 @@ header .navbar ul li {
     border-bottom: 2px solid #1cb2ba;
 }
 
-a {
-    text-decoration: none;
-    color: #ffffff;
-    border-bottom: 2px solid #ffffff;
-}
 
 header .navbar ul li a {
+    text-decoration: none;
+    border-bottom: 2px solid #ffffff;
     color: #ffffff;
     font-size: 25px;
     line-height: 72px;
@@ -95,6 +92,12 @@ header .navbar ul li a {
 .about {
     margin: 5% 0 0 5%;
     display: flex;
+}
+
+.about a {
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
 }
 
 .about a:hover {
@@ -264,6 +267,10 @@ header .navbar ul li a {
     background-color: #7aa8b7;
     border-radius: 6px;
     outline: none;
+}
+
+.button:hover {
+    background-color: #1cb2ba;
 }
 
 .hobbies {
