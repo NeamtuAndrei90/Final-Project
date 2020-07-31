@@ -15,14 +15,15 @@ header .navbar ul li {
     margin-left: 35px;
 }
 
+.navbar a:hover {
+    color: #1cb2ba;
+    border-bottom: 2px solid #1cb2ba;
+}
+
 a {
     text-decoration: none;
     color: #ffffff;
     border-bottom: 2px solid #ffffff;
-}
-
-a:hover {
-    background-color: #1cb2ba;
 }
 
 header .navbar ul li a {
@@ -94,6 +95,11 @@ header .navbar ul li a {
 .about {
     margin: 5% 0 0 5%;
     display: flex;
+}
+
+.about a:hover {
+    color: #1cb2ba;
+    border-bottom: 2px solid #1cb2ba;
 }
 
 .about img {
