@@ -29,6 +29,6 @@ function validate() {
     }
 
     if(name.value.match(letters) && email.value.match(letters) && contactMessage.value!= ""){
-        alert("Thank you for your attention")
+        alert("Email has been sent")
     }
 }
